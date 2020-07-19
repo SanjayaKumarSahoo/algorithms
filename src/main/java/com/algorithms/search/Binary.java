@@ -9,7 +9,7 @@ public class Binary {
         }
         int start = 0;
         int end = elements.length;
-        for (;start < end;) {
+        for (; start < end; ) {
             int mid = (start + end) / 2;
             if (elements[mid] == searchElement) {
                 return mid;
@@ -27,7 +27,11 @@ public class Binary {
     }
 
     public static void main(String[] args) {
+        // Complexity
+        // Best case - O(1)
+        // Worst case - O(log n)
+        // Average case - O(log n)
         Binary binary = new Binary();
-        System.out.println(binary.search(new int[]{0, 1, 5, 7, 9}, 9));
+        System.out.println(binary.search(new int[]{0, 1, 5, 7, 9}, 5));
     }
 }

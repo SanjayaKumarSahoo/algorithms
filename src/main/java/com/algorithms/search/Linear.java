@@ -18,6 +18,10 @@ public class Linear {
 
 
     public static void main(String[] args) {
+        // Complexity
+        // Best case - O(1)
+        // Worst case - O(n)
+        // Average case - O(n)
         Linear linear = new Linear();
         System.out.println(linear.search(new int[]{1, 5, 7, 9}, 7));
     }
