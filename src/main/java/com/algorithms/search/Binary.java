@@ -32,6 +32,7 @@ public class Binary {
         // Worst case - O(log n)
         // Average case - O(log n)
         Binary binary = new Binary();
+        // pre-requisite to be sorted
         System.out.println(binary.search(new int[]{0, 1, 5, 7, 9}, 5));
     }
 }
